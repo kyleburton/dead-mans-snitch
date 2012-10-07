@@ -12,7 +12,7 @@ Use the report function:
 
 bc. require 'rubygems'
     require 'dead_mans_snitch'
-    
+     
     DeadMansSnitch.report 'your-snitch-id'
 
 
