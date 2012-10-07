@@ -4,16 +4,17 @@ h1. Example
 
 Install the gem:
 
-bc. gem install dead_mans_snitch
+<pre>
+gem install dead_mans_snitch
+</pre>
 
 
 
 Use the report function:
 
-bc. require 'rubygems'
-    require 'dead_mans_snitch'
-     
-    DeadMansSnitch.report 'your-snitch-id'
+<pre>
+require 'rubygems'
+require 'dead_mans_snitch'
 
-
-
+DeadMansSnitch.report 'your-snitch-id'
+</pre>
