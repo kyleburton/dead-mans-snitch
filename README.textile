@@ -17,4 +17,5 @@ require 'rubygems'
 require 'dead_mans_snitch'
 
 DeadMansSnitch.report 'your-snitch-id'
+DeadMansSnitch.report 'your-snitch-id', 'optional message'
 </pre>
