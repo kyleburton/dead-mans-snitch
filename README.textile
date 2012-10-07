@@ -1,1 +1,18 @@
 h1. Gem for "Dead Man's Snitch":https://deadmanssnitch.com/
+
+h1. Example
+
+Install the gem:
+
+    gem install dead_mans_snitch
+
+
+Use the report function:
+
+    require 'rubygems'
+    require 'dead_mans_snitch'
+
+    DeadMansSnitch.report 'your-snitch-id'
+
+
+
