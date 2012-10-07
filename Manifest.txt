@@ -1,0 +1,10 @@
+./README.textile
+./dead_mans_snitch.gemspec
+./Manifest.txt
+./History.txt
+./README.textile
+./dead_mans_snitch-1.0.0.gem
+./dead_mans_snitch.gemspec
+./Manifest.txt
+./lib/dead_mans_snitch.rb
+./History.txt
