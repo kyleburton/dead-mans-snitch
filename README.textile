@@ -4,15 +4,13 @@ h1. Example
 
 Install the gem:
 
-bc.
-    gem install dead_mans_snitch
+bc. gem install dead_mans_snitch
 
 
 
 Use the report function:
 
-bc.
-    require 'rubygems'
+bc. require 'rubygems'
     require 'dead_mans_snitch'
     
     DeadMansSnitch.report 'your-snitch-id'
