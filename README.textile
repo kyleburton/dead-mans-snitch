@@ -19,3 +19,11 @@ require 'dead_mans_snitch'
 DeadMansSnitch.report 'your-snitch-id'
 DeadMansSnitch.report 'your-snitch-id', 'optional message'
 </pre>
+
+
+To build and deploy:
+
+<pre>
+gem build dead_mans_snitch.gemspec 
+gem push dead_mans_snitch-[[version]].gem 
+</pre>
