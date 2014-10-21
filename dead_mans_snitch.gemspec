@@ -16,4 +16,6 @@ Gem::Specification.new do |s|
   s.summary = %q{A gem to make using https://deadmanssnitch.com simple.}
 
   s.add_development_dependency 'bundler'
+  s.add_development_dependency 'rspec', '>= 3.0.0'
+  s.add_development_dependency 'webmock'
 end

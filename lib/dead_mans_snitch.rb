@@ -15,6 +15,7 @@ class DeadMansSnitch
       request.set_form_data( "m" => message )
       response             = http.request(request)
     rescue Exception => e
+      false
     end
   end
 end
