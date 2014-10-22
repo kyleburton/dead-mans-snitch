@@ -5,6 +5,7 @@ require 'uri'
 
 class DeadMansSnitch
   def self.report snitch_id, message=nil
+    return false if snitch_id.nil? || snitch_id == ''
     begin
       dead_mans_snitch_url = "https://nosnch.in/#{snitch_id}"
       uri                  = URI.parse(dead_mans_snitch_url)
