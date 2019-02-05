@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
   s.email = ["kburton@gmail.com"]
   s.extra_rdoc_files = ["README.textile"]
   s.files = ["README.textile", "lib/dead_mans_snitch.rb"]
-  s.has_rdoc = false
   s.homepage = %q{https://github.com/kyleburton/dead-mans-snitch}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.1}
